@@ -2414,7 +2414,7 @@ a {
 .pin-footer {
   color: #fbdfd2;
   text-align: center;
-  width: 80%;
+  width: 90%;
   margin: auto;
   font-size: 20px;
   font-weight: 500;
@@ -4092,7 +4092,8 @@ a {
   .pin-button-container {
     text-align: center;
     margin: auto;
-    margin: 60px 35px;
+    margin: 60px auto;
+    width: 85%;
   }
 
   .pin-container {
