@@ -112,8 +112,6 @@
       const url = "https://peanut-api.herokuapp.com/webhook/authentication";
       const data = { pin: values, hash };
 
-      console.log(data)
-
       fetch(url, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
