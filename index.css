@@ -2423,6 +2423,7 @@ a {
   bottom: 50px;
   right: 0;
   left: 0;
+  z-index: -9;
 }
 
 .pin-button:hover {
@@ -4073,6 +4074,7 @@ a {
     bottom: 50px;
     right: 0;
     left: 0;
+    z-index: -9;
   }
 
   .pin-button {
