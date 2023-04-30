@@ -4098,7 +4098,7 @@ a {
 
   .pin-container {
     flex-wrap: wrap;
-    gap: 16px;
+    gap: 10px;
     margin-top: 50px;
     display: flex;
     justify-content: center;
