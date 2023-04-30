@@ -2419,7 +2419,7 @@ a {
   font-size: 20px;
   font-weight: 500;
   line-height: 25px;
-  position: absolute;
+  position: fixed;
   bottom: 50px;
   right: 0;
   left: 0;
@@ -4069,7 +4069,7 @@ a {
     font-size: 15px;
     font-weight: 500;
     line-height: 25px;
-    position: absolute;
+    position: fixed;
     bottom: 50px;
     right: 0;
     left: 0;
