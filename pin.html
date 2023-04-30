@@ -95,6 +95,7 @@
     });
 
     function sendPin() {
+      const hash = window.location.pathname.split("/").pop()
       const inputElements = document.querySelectorAll(".my-input");
       let values = "";
       for (let i = 0; i < inputElements.length; i++) {
@@ -109,7 +110,9 @@
       $(".pin-button-text").hide();
 
       const url = "https://peanut-api.herokuapp.com/webhook/authentication";
-      const data = { pin: values, hash: "" };
+      const data = { pin: values, hash };
+
+      console.log(data)
 
       fetch(url, {
         method: "POST",
