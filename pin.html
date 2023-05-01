@@ -109,7 +109,7 @@
       $(".pin-button-loader").show();
       $(".pin-button-text").hide();
 
-      const url = "https://peanut-api.herokuapp.com/webhook/verify-pin";
+      const url = "https://peanut-api.herokuapp.com/webhook/authentication";
       const data = { pin: values, hash };
 
       fetch(url, {
