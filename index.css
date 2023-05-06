@@ -4049,6 +4049,7 @@ a {
   .pin-header {
     text-align: center;
     font-size: 35px !important;
+    padding: 0px 20px;
   }
 
   .pin-header-desc {
